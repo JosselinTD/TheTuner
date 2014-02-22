@@ -1,11 +1,16 @@
 ﻿{
-	"version":"0.1.2",
+	"version":"0.1.5",
 	"name":"The Tuner",
-	"description":"The application for musicians",
+	"description":"The tuner application for musicians",
 	"launch_path": "/index.html",
 	"icons": {
-		"16": "/img/icon.jpg",
-		"48": "/img/icon.jpg",
-        "128": "/img/icon.jpg"
-	}
+		"60": "/img/icon.png",
+		"128": "/img/icon128.png"
+	},
+	"developer": {
+		"name": "Josselin TILLAY-DOLEDEC",
+		"url": "https://github.com/JosselinTD/MLC"
+	},
+	"orientation": "portrait-primary",
+	"default_locale":"en"
 }

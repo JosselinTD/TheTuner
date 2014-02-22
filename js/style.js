@@ -1,5 +1,7 @@
 $(function(){
 	function style(){
+		console.log("Coucou !");
+		
 		$(".note").each(function(index){
 			$(this).css("left", index*80+$("body").width()/2+"px");
 		});
@@ -11,7 +13,15 @@ $(function(){
 		$("#indicator").css("top", parseInt($("#note-choice").css("top"))+20+"px");
 	}
 	
-	$(window).resize(style);
+	//$(window).resize(style);
 	
 	style();
+	
+	$(".ut-settings").click(function(){
+		$('section').css("left", "-="+$("section").width());
+	});
+	
+	$(".ui-back").click(function(){
+		$('section').css("left", "+="+$("section").width());
+	});
 });
